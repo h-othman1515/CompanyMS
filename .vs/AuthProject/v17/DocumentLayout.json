@@ -1,0 +1,215 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\h-othman1515\\C-Basics\\AuthProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{38FDD8C1-19C5-48D7-82D8-1EEC79502935}|AuthProject\\AuthProject.csproj|c:\\users\\user\\source\\repos\\h-othman1515\\c-basics\\authproject\\authproject\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38FDD8C1-19C5-48D7-82D8-1EEC79502935}|AuthProject\\AuthProject.csproj|solutionrelative:authproject\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38FDD8C1-19C5-48D7-82D8-1EEC79502935}|AuthProject\\AuthProject.csproj|c:\\users\\user\\source\\repos\\h-othman1515\\c-basics\\authproject\\authproject\\views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38FDD8C1-19C5-48D7-82D8-1EEC79502935}|AuthProject\\AuthProject.csproj|solutionrelative:authproject\\views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38FDD8C1-19C5-48D7-82D8-1EEC79502935}|AuthProject\\AuthProject.csproj|c:\\users\\user\\source\\repos\\h-othman1515\\c-basics\\authproject\\authproject\\views\\admin\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38FDD8C1-19C5-48D7-82D8-1EEC79502935}|AuthProject\\AuthProject.csproj|solutionrelative:authproject\\views\\admin\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38FDD8C1-19C5-48D7-82D8-1EEC79502935}|AuthProject\\AuthProject.csproj|c:\\users\\user\\source\\repos\\h-othman1515\\c-basics\\authproject\\authproject\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38FDD8C1-19C5-48D7-82D8-1EEC79502935}|AuthProject\\AuthProject.csproj|solutionrelative:authproject\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38FDD8C1-19C5-48D7-82D8-1EEC79502935}|AuthProject\\AuthProject.csproj|c:\\users\\user\\source\\repos\\h-othman1515\\c-basics\\authproject\\authproject\\viewmodels\\userwithrolesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38FDD8C1-19C5-48D7-82D8-1EEC79502935}|AuthProject\\AuthProject.csproj|solutionrelative:authproject\\viewmodels\\userwithrolesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38FDD8C1-19C5-48D7-82D8-1EEC79502935}|AuthProject\\AuthProject.csproj|c:\\users\\user\\source\\repos\\h-othman1515\\c-basics\\authproject\\authproject\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38FDD8C1-19C5-48D7-82D8-1EEC79502935}|AuthProject\\AuthProject.csproj|solutionrelative:authproject\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38FDD8C1-19C5-48D7-82D8-1EEC79502935}|AuthProject\\AuthProject.csproj|c:\\users\\user\\source\\repos\\h-othman1515\\c-basics\\authproject\\authproject\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38FDD8C1-19C5-48D7-82D8-1EEC79502935}|AuthProject\\AuthProject.csproj|solutionrelative:authproject\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38FDD8C1-19C5-48D7-82D8-1EEC79502935}|AuthProject\\AuthProject.csproj|c:\\users\\user\\source\\repos\\h-othman1515\\c-basics\\authproject\\authproject\\viewmodels\\edituserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38FDD8C1-19C5-48D7-82D8-1EEC79502935}|AuthProject\\AuthProject.csproj|solutionrelative:authproject\\viewmodels\\edituserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38FDD8C1-19C5-48D7-82D8-1EEC79502935}|AuthProject\\AuthProject.csproj|c:\\users\\user\\source\\repos\\h-othman1515\\c-basics\\authproject\\authproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38FDD8C1-19C5-48D7-82D8-1EEC79502935}|AuthProject\\AuthProject.csproj|solutionrelative:authproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38FDD8C1-19C5-48D7-82D8-1EEC79502935}|AuthProject\\AuthProject.csproj|c:\\users\\user\\source\\repos\\h-othman1515\\c-basics\\authproject\\authproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38FDD8C1-19C5-48D7-82D8-1EEC79502935}|AuthProject\\AuthProject.csproj|solutionrelative:authproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38FDD8C1-19C5-48D7-82D8-1EEC79502935}|AuthProject\\AuthProject.csproj|c:\\users\\user\\source\\repos\\h-othman1515\\c-basics\\authproject\\authproject\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38FDD8C1-19C5-48D7-82D8-1EEC79502935}|AuthProject\\AuthProject.csproj|solutionrelative:authproject\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 421,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\h-othman1515\\C-Basics\\AuthProject\\AuthProject\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "AuthProject\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\h-othman1515\\C-Basics\\AuthProject\\AuthProject\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "AuthProject\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAB8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-02T17:23:12.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserWithRolesViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\h-othman1515\\C-Basics\\AuthProject\\AuthProject\\ViewModels\\UserWithRolesViewModel.cs",
+              "RelativeDocumentMoniker": "AuthProject\\ViewModels\\UserWithRolesViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\h-othman1515\\C-Basics\\AuthProject\\AuthProject\\ViewModels\\UserWithRolesViewModel.cs",
+              "RelativeToolTip": "AuthProject\\ViewModels\\UserWithRolesViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T17:20:22.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\h-othman1515\\C-Basics\\AuthProject\\AuthProject\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "AuthProject\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\h-othman1515\\C-Basics\\AuthProject\\AuthProject\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "AuthProject\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAASwE8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T17:16:39.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\h-othman1515\\C-Basics\\AuthProject\\AuthProject\\Views\\Admin\\EditUser.cshtml",
+              "RelativeDocumentMoniker": "AuthProject\\Views\\Admin\\EditUser.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\h-othman1515\\C-Basics\\AuthProject\\AuthProject\\Views\\Admin\\EditUser.cshtml",
+              "RelativeToolTip": "AuthProject\\Views\\Admin\\EditUser.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAqwCMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-02T13:43:14.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Users.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\h-othman1515\\C-Basics\\AuthProject\\AuthProject\\Views\\Admin\\Users.cshtml",
+              "RelativeDocumentMoniker": "AuthProject\\Views\\Admin\\Users.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\h-othman1515\\C-Basics\\AuthProject\\AuthProject\\Views\\Admin\\Users.cshtml",
+              "RelativeToolTip": "AuthProject\\Views\\Admin\\Users.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwG0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-02T16:53:22.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\h-othman1515\\C-Basics\\AuthProject\\AuthProject\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "AuthProject\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\h-othman1515\\C-Basics\\AuthProject\\AuthProject\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "AuthProject\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T17:20:14.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\h-othman1515\\C-Basics\\AuthProject\\AuthProject\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "AuthProject\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\h-othman1515\\C-Basics\\AuthProject\\AuthProject\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "AuthProject\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T17:20:12.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\h-othman1515\\C-Basics\\AuthProject\\AuthProject\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "AuthProject\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\h-othman1515\\C-Basics\\AuthProject\\AuthProject\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "AuthProject\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T17:16:36.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EditUserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\h-othman1515\\C-Basics\\AuthProject\\AuthProject\\ViewModels\\EditUserViewModel.cs",
+              "RelativeDocumentMoniker": "AuthProject\\ViewModels\\EditUserViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\h-othman1515\\C-Basics\\AuthProject\\AuthProject\\ViewModels\\EditUserViewModel.cs",
+              "RelativeToolTip": "AuthProject\\ViewModels\\EditUserViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T13:41:38.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\h-othman1515\\C-Basics\\AuthProject\\AuthProject\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "AuthProject\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\h-othman1515\\C-Basics\\AuthProject\\AuthProject\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "AuthProject\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T17:16:28.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\h-othman1515\\C-Basics\\AuthProject\\AuthProject\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "AuthProject\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\h-othman1515\\C-Basics\\AuthProject\\AuthProject\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "AuthProject\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T17:10:18.802Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
