@@ -1,0 +1,120 @@
+﻿@model List<AuthProject.ViewModels.UserWithRolesViewModel>
+@{
+    ViewData["Title"] = "User management";
+}
+
+<div class="container-fluid mt-4">
+
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h4 class="mb-0">User management</h4>
+        <span class="badge bg-secondary">@Model.Count users</span>
+    </div>
+
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            @TempData["Success"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            @TempData["Error"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+
+    <div class="card shadow-sm">
+        <div class="card-body p-0">
+            <table class="table table-hover mb-0 align-middle">
+                <thead class="table-light">
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Email</th>
+                        <th>Roles</th>
+                        <th>Status</th>
+                        <th class="text-end">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var user in Model)
+                    {
+                        <tr>
+                            <td>@user.FullName</td>
+                            <td>@user.Age</td>
+                            <td class="text-muted small">@user.Email</td>
+                            <td>
+                                @if (user.Roles.Any())
+                                {
+                                    @foreach (var role in user.Roles)
+                                    {
+                                        var badgeClass = role switch
+                                        {
+                                            "Admin" => "bg-danger",
+                                            "Editor" => "bg-warning text-dark",
+                                            _ => "bg-primary"
+                                        };
+                                        <span class="badge @badgeClass me-1">@role</span>
+                                    }
+                                }
+                                else
+                                {
+                                    <span class="text-muted small">No role</span>
+                                }
+                            </td>
+                            <td>
+                                @if (user.IsLockedOut)
+                                {
+                                    <span class="badge bg-danger">Locked</span>
+                                }
+                                else
+                                {
+                                    <span class="badge bg-success">Active</span>
+                                }
+                            </td>
+                            <td class="text-end">
+                                <a asp-action="EditUser" asp-route-id="@user.Id"
+                                   class="btn btn-sm btn-outline-primary me-1">
+                                    Edit
+                                </a>
+
+                                @if (user.IsLockedOut)
+                                {
+                                    <form asp-action="UnlockUser" method="post" class="d-inline">
+                                        <input type="hidden" name="id" value="@user.Id" />
+                                        @Html.AntiForgeryToken()
+                                        <button type="submit" class="btn btn-sm btn-outline-success me-1">
+                                            Unlock
+                                        </button>
+                                    </form>
+                                }
+                                else
+                                {
+                                    <form asp-action="LockUser" method="post" class="d-inline">
+                                        <input type="hidden" name="id" value="@user.Id" />
+                                        @Html.AntiForgeryToken()
+                                        <button type="submit" class="btn btn-sm btn-outline-warning me-1">
+                                            Lock
+                                        </button>
+                                    </form>
+                                }
+
+                                <form asp-action="DeleteUser" method="post" class="d-inline"
+                                      onsubmit="return confirm('Delete @user.Email? This cannot be undone.')">
+                                    <input type="hidden" name="id" value="@user.Id" />
+                                    @Html.AntiForgeryToken()
+                                    <button type="submit" class="btn btn-sm btn-outline-danger">
+                                        Delete
+                                    </button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
